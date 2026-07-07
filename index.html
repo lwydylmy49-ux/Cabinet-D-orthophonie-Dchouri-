@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cabinet d’orthophonie achouri</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  
+  <!-- Preconnect & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- External CSS Blueprint Asset -->
+  <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+
+  <!-- Topbar Block Info -->
+  <div class="topbar">
+    <div class="container">
+      <div class="top-info">
+        <span><i class="fa-solid fa-location-dot"></i> المسيلة، الجزائر</span>
+        <span><i class="fa-solid fa-envelope"></i> achouri.orthophonie@gmail.com</span>
+        <span><i class="fa-solid fa-phone"></i> <bdi dir="ltr">0783 23 42 64</bdi></span>
+      </div>
+      <div class="top-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Header & Global Navbar -->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <a href="#home" class="logo">
+          <span class="icon"><img src="images/logo.png" alt="ACHOURI Cabinet d'orthophonie"></span>
+          <span>
+            ACHOURI
+            <small>Cabinet d’orthophonie</small>
+          </span>
+        </a>
+
+        <div class="nav-wrap">
+          <nav class="nav-links">
+            <a href="#home" class="active">الرئيسية</a>
+            <a href="#about">من نحن</a>
+            <a href="#services">الخدمات</a>
+            <a href="#booking">حجز موعد</a>
+            <a href="#contact">اتصال</a>
+          </nav>
+          <a class="btn btn-primary desktop-cta" href="#booking">احجز الآن</a>
+          <button class="mobile-toggle" id="menuToggle" aria-label="قائمة التنقل" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Collapsible Mobile Dropdown Navigation -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#services">الخدمات</a>
+        <a href="#booking">حجز موعد</a>
+        <a href="#contact">اتصال</a>
+        <a class="btn btn-primary" href="#booking" style="margin-top:10px">احجز الآن</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Image Slider Hero Section -->
+  <section class="hero" id="home">
+    <div class="slide active" style="background-image:url('images/4566.jpg')"></div>
+    <div class="slide" style="background-image:url('images/4564.jpg')"></div>
+
+    <button class="slider-arrow prev" id="prevSlide" aria-label="السابق"><i class="fa-solid fa-chevron-right"></i></button>
+    <button class="slider-arrow next" id="nextSlide" aria-label="التالي"><i class="fa-solid fa-chevron-left"></i></button>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-inner">
+          <h1>نؤمن بأن كل طفل وكل بالغ يستحق مرافقة نطق ولغة مميزة بسهولة.</h1>
+          <p>Cabinet d’orthophonie achouri يقدم جلسات تشخيص، تأهيل ومتابعة في اضطرابات النطق، اللغة، التواصل والتعلم داخل فضاء مهني مريح وآمن.</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary">ابدأ الآن</a>
+            <a href="#contact" class="btn btn-light">اتصل بنا</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dots">
+      <button class="dot active" data-slide="0" aria-label="الشريحة 1"></button>
+      <button class="dot" data-slide="1" aria-label="الشريحة 2"></button>
+    </div>
+  </section>
+
+  <!-- Clinical Profile & Experience Overview (About) -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image about-slider">
+          <img class="about-slide active" src="images/4570.jpg" alt="فضاء العلاج والألعاب التعليمية">
+          <img class="about-slide" src="images/4572.jpg" alt="أدوات ووسائل تعليمية متخصصة">
+        </div>
+        <div class="about-text">
+          <div class="section-title" style="text-align:right; margin-bottom:24px">
+            <h2 style="font-size:44px">معلومات عنا</h2>
+            <div class="line" style="margin-right:0"></div>
+          </div>
+          <p>في Cabinet d’orthophonie achouri نوفر تكفلاً متخصصاً للأطفال والمراهقين والبالغين الذين يعانون من صعوبات في النطق، اللغة الشفوية والكتابية، اضطرابات الصوت والتواصل.</p>
+
+          <div class="progress-item">
+            <div class="progress-label"><span>تشخيص دقيق</span><span>90%</span></div>
+            <div class="progress"><span style="width:90%"></span></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>متابعة فردية</span><span>85%</span></div>
+            <div class="progress"><span style="width:85%"></span></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label"><span>وسائل حديثة</span><span>80%</span></div>
+            <div class="progress"><span style="width:80%"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Milestone Counters Block -->
+      <div class="stats">
+        <div class="stat">
+          <i class="fa-regular fa-star"></i>
+          <div class="num" data-target="2">0</div>
+          <p>سنوات من الخبرة</p>
+        </div>
+        <div class="stat">
+          <i class="fa-regular fa-heart"></i>
+          <div class="num" data-target="1000">0</div>
+          <p>مستفيد راضٍ</p>
+        </div>
+        <div class="stat">
+          <i class="fa-regular fa-clipboard"></i>
+          <div class="num" data-target="120">0</div>
+          <p>خطة علاجية</p>
+        </div>
+        <div class="stat">
+          <i class="fa-regular fa-id-card"></i>
+          <div class="num" data-target="6">0</div>
+          <p>تقييم متخصص</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Provided Healthcare & Therapeutic Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>خدماتنا</h2>
+        <div class="line"></div>
+      </div>
+      <div class="services-grid">
+        <div class="card">
+          <i class="fa-solid fa-ear-listen"></i>
+          <h4>تقييم النطق واللغة</h4>
+          <p>فحص شامل لتحديد نوع الصعوبة ووضع خطة تدخل مناسبة لكل حالة.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-comments"></i>
+          <h4>علاج اضطرابات التواصل</h4>
+          <p>جلسات فردية لتحسين التعبير الشفهي، الفهم، والتفاعل الاجتماعي.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h4>صعوبات التعلم</h4>
+          <p>مرافقة متخصصة في مشاكل القراءة، الكتابة، والوعي الصوتي.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-microphone-lines"></i>
+          <h4>اضطرابات الصوت</h4>
+          <p>تقنيات وتمارين لتحسين جودة الصوت والتنفس والاستعمال السليم للصوت.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-child-reaching"></i>
+          <h4>تأهيل الأطفال</h4>
+          <p>برامج تفاعلية موجهة للأطفال لتطوير اللغة والانتباه والتواصل.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-user-group"></i>
+          <h4>إرشاد أولياء الأمور</h4>
+          <p>نصائح وتمارين منزلية لمساندة التقدم العلاجي خارج الجلسات.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Scheduling Module Section -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="booking-wrap">
+        <div>
+          <h2>احجز موعدك بكل سهولة</h2>
+          <p>املأ الاستمارة وسنتواصل معك لتأكيد الموعد المناسب حسب توفر الأوقات.</p>
+        </div>
+        <form id="bookingForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">الاسم الكامل</label>
+              <input id="name" type="text" placeholder="أدخل الاسم الكامل" required>
+              <div class="error">الاسم مطلوب</div>
+            </div>
+            <div class="field">
+              <label for="phone">رقم الهاتف</label>
+              <input id="phone" type="tel" placeholder="أدخل رقم الهاتف" required>
+              <div class="error">رقم الهاتف مطلوب</div>
+            </div>
+            <div class="field">
+              <label for="service">الخدمة</label>
+              <select id="service" required>
+                <option value="">اختر الخدمة</option>
+                <option>تقييم النطق واللغة</option>
+                <option>علاج اضطرابات التواصل</option>
+                <option>صعوبات التعلم</option>
+                <option>اضطرابات الصوت</option>
+              </select>
+              <div class="error">يرجى اختيار الخدمة</div>
+            </div>
+            <div class="field">
+              <label for="date">التاريخ المفضل</label>
+              <input id="date" type="date" required>
+              <div class="error">التاريخ مطلوب</div>
+            </div>
+            <div class="field full">
+              <label for="message">ملاحظات</label>
+              <textarea id="message" placeholder="اكتب تفاصيل الحالة أو أي ملاحظات إضافية"></textarea>
+            </div>
+            <div class="field full">
+              <button class="btn btn-primary" type="submit">تأكيد الطلب</button>
+              <div class="success" id="successMsg">جاري تحويلك إلى واتساب لإتمام طلب الحجز...</div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Communication & Map Coordinates Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>اتصل بنا</h2>
+        <div class="line"></div>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-box" href="https://maps.app.goo.gl/dVbsqzcEfMVNxNX1A?g_st=ac" target="_blank" rel="noopener">
+          <i class="fa-solid fa-location-dot"></i>
+          <h4>العنوان</h4>
+          <p>المسيلة، الجزائر</p>
+        </a>
+        <a class="contact-box" href="tel:0783234264">
+          <i class="fa-solid fa-phone"></i>
+          <h4>الهاتف</h4>
+          <p><bdi dir="ltr">0783 23 42 64</bdi></p>
+        </a>
+        <div class="contact-box">
+          <i class="fa-solid fa-envelope"></i>
+          <h4>البريد الإلكتروني</h4>
+          <p>achouri.orthophonie@gmail.com</p>
+        </div>
+        <a class="contact-box" href="https://wa.me/213783234264?text=مرحباً، أرغب في حجز موعد" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h4>حجز عبر واتساب</h4>
+          <p><bdi dir="ltr">0783 23 42 64</bdi></p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copyright Bar Footer -->
+  <footer>
+    <div class="container">© 2026 Cabinet d’orthophonie achouri - جميع الحقوق محفوظة</div>
+    <div class="container">تصميم وتطوير الموقع - ديلمي عدي عبيد الله</div>
+  </footer>
+
+  <!-- Embedded JavaScript Core Engine directly inside HTML -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      
+      // 1. Mobile Menu Toggle Configuration
+      const menuToggle = document.getElementById('menuToggle');
+      const mobileMenu = document.getElementById('mobileMenu');
+      
+      if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+          const isExpanded = mobileMenu.classList.toggle('show');
+          menuToggle.innerHTML = isExpanded
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+          menuToggle.setAttribute('aria-expanded', isExpanded);
+        });
+      }
+
+      // Close Mobile Menu on Click of any Nav Link
+      document.querySelectorAll('.mobile-menu a, .nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (mobileMenu && menuToggle) {
+            mobileMenu.classList.remove('show');
+            menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            menuToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+
+      // 2. Hero Section Slider / Carousel Logic
+      const slides = document.querySelectorAll('.slide');
+      const dots = document.querySelectorAll('.dot');
+      let currentSlide = 0;
+      let sliderInterval;
+
+      function showSlide(index) {
+        if (slides.length === 0) return;
+        
+        if (index >= slides.length) index = 0;
+        if (index < 0) index = slides.length - 1;
+
+        slides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        showSlide(currentSlide + 1);
+      }
+
+      function prevSlide() {
+        showSlide(currentSlide - 1);
+      }
+
+      const nextBtn = document.getElementById('nextSlide');
+      const prevBtn = document.getElementById('prevSlide');
+      
+      if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); resetSliderTimer(); });
+      if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); resetSliderTimer(); });
+      
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          showSlide(+dot.dataset.slide);
+          resetSliderTimer();
+        });
+      });
+
+      function startSliderTimer() {
+        if (slides.length > 1) {
+          sliderInterval = setInterval(nextSlide, 6000);
+        }
+      }
+
+      function resetSliderTimer() {
+        clearInterval(sliderInterval);
+        startSliderTimer();
+      }
+
+      startSliderTimer();
+
+      // 2b. About Section Image Slider (same auto-rotate behavior, every 6s)
+      const aboutSlides = document.querySelectorAll('.about-slide');
+      let currentAboutSlide = 0;
+
+      function showAboutSlide(index) {
+        if (aboutSlides.length === 0) return;
+        if (index >= aboutSlides.length) index = 0;
+        if (index < 0) index = aboutSlides.length - 1;
+        aboutSlides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+        currentAboutSlide = index;
+      }
+
+      if (aboutSlides.length > 1) {
+        setInterval(() => {
+          showAboutSlide(currentAboutSlide + 1);
+        }, 6000);
+      }
+
+      // 3. Stats Milestone Counter Animation with Intersection Observer
+      const counters = document.querySelectorAll('.num');
+      
+      const counterObserverOptions = {
+        threshold: 0.5,
+        rootMargin: "0px"
+      };
+
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = +el.dataset.target;
+            let count = 0;
+            const speed = 30;
+            const step = Math.ceil(target / 50);
+
+            const timer = setInterval(() => {
+              count += step;
+              if (count >= target) {
+                el.textContent = target;
+                clearInterval(timer);
+              } else {
+                el.textContent = count;
+              }
+            }, speed);
+            
+            counterObserver.unobserve(el);
+          }
+        });
+      }, counterObserverOptions);
+      
+      counters.forEach(counter => counterObserver.observe(counter));
+
+      // 4. Booking Appointment Form Client-Side Validation
+      const form = document.getElementById('bookingForm');
+      const successMsg = document.getElementById('successMsg');
+      
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          let isFormValid = true;
+          
+          const formFields = [
+            { id: 'name', condition: v => v.trim() !== '' },
+            { id: 'phone', condition: v => v.trim() !== '' },
+            { id: 'service', condition: v => v.trim() !== '' },
+            { id: 'date', condition: v => v.trim() !== '' }
+          ];
+          
+          formFields.forEach(({ id, condition }) => {
+            const inputElement = document.getElementById(id);
+            if (!inputElement) return;
+            
+            const errorElement = inputElement.parentElement.querySelector('.error');
+            
+            if (!condition(inputElement.value)) {
+              if (errorElement) errorElement.style.display = 'block';
+              inputElement.style.borderColor = '#db3b3b';
+              isFormValid = false;
+            } else {
+              if (errorElement) errorElement.style.display = 'none';
+              inputElement.style.borderColor = '#d8e0ec';
+            }
+          });
+          
+          if (isFormValid) {
+            const nameVal = document.getElementById('name').value.trim();
+            const phoneVal = document.getElementById('phone').value.trim();
+            const serviceVal = document.getElementById('service').value.trim();
+            const dateVal = document.getElementById('date').value.trim();
+            const messageVal = document.getElementById('message').value.trim();
+
+            const waText = [
+              'مرحباً، أرغب في حجز موعد:',
+              'الاسم: ' + nameVal,
+              'رقم الهاتف: ' + phoneVal,
+              'الخدمة: ' + serviceVal,
+              'التاريخ المفضل: ' + dateVal,
+              messageVal ? 'ملاحظات: ' + messageVal : ''
+            ].filter(Boolean).join('\n');
+
+            const waUrl = 'https://wa.me/213783234264?text=' + encodeURIComponent(waText);
+
+            if (successMsg) {
+              successMsg.style.display = 'block';
+              setTimeout(() => {
+                successMsg.style.display = 'none';
+              }, 5000);
+            }
+
+            form.reset();
+            window.open(waUrl, '_blank');
+          }
+        });
+      }
+
+      // 5. Scroll-driven Navigation Links Active State Indicator
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-links a');
+      
+      window.addEventListener('scroll', () => {
+        let currentActiveSectionId = '';
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 140;
+          if (window.scrollY >= sectionTop) {
+            currentActiveSectionId = section.getAttribute('id');
+          }
+        });
+        
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === '#' + currentActiveSectionId);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
