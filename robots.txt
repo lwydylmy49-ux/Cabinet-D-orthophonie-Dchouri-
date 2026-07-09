@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lwydylmy49-ux.github.io/Cabinet-D-orthophonie-Achouri-/sitemap.xml
